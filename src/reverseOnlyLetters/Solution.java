@@ -53,7 +53,8 @@ public class Solution {
  *                 high--;
  *             } else if (!Character.isLetter(str[low])) {
  *                 low++;
- *             } else if (!Character.isLetter(str[high])) {
+ *             } else if (!Character.isLetter(str[high]))
+ * {
  *                 high--;
  *             }
  *         }
